@@ -1,0 +1,23 @@
+// Assignment Code
+var generateBtn = document.querySelector("#generate");
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+
+}
+
+var array = new Uint32Array(5);
+window.crypto.getRandomValues(array);
+
+console.log("Your lucky numbers:");
+for (var i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
