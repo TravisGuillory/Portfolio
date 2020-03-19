@@ -10,7 +10,7 @@ GitHub: https://github.com/TravisGuillory
 LinkedIn: https://www.linkedin.com/in/travis-guillory-a81746196/
 
 
-[Alt text](https://github.com/TravisGuillory/Portfolio/assets/img/portfolioScreen.png?raw=true, "Screenshot")
+[Alt text](assets/img/portfolioScreen.png)
 
 
 
