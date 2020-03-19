@@ -7,6 +7,13 @@ Please see my portfolio link here https://travisguillory.github.io/Portfolio/
 
 GitHub: https://github.com/TravisGuillory
 
+LinkedIn: https://www.linkedin.com/in/travis-guillory-a81746196/
+
+
+[Alt text](assets/img/portfolioScreen.png)
+
+
+
 
 
 
