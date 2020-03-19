@@ -8,12 +8,13 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
 </head>
 <body>
     <header id="pageHeader">
-    <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+      <nav class="navbar navbar-expand-md navbar-dark ">
         <a href="index.html" class="navbar-brand">
-            <img class="img-fluid" src="assets/img/logo-temp.jpg" alt="Travis Guillory" title="Travis Guillory">
+            <img class="img-fluid" src="assets/img/meThumbnail.jpg" alt="Travis Guillory" title="Travis Guillory">
         </a>
         <a href="index.html" class="navbar-brand">Travis Guillory</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -30,6 +31,9 @@
                     <li class="nav-item">
                         <a href="contact.html" class="nav-link mr-5">Contact</a>
                     </li>
+                    <li class="nav-item">
+                      <a href="assets/Resume of Travis Guillory.pdf" class="nav-link mr-5">Resume</a>
+                  </li>
                 </ul>
             </div>
         </nav>
@@ -38,77 +42,87 @@
     <main>
       <div class="container" id="mainContainer"> 
         <h1 class="text-center">Projects Completed</h1>
-        <div class="row my-3 "> 
-            <div class="card-deck col-sm-12 col-md-9 mx-auto ">
-                <div class="card">
-                  <a href="#"><img src="assets/img/codeRefactor.png" class="card-img-top img-fluid" alt="Code Refactor"></a>
-                  <div class="card-body">
+        <div class="row">
+            
+                <div class="card project col-lg m-1 p-1">
+                  <a href="https://travisguillory.github.io/MarketingWebpageRefactor/"><img src="assets/img/codeRefactor.png" class="card-img-top img-fluid" alt="Code Refactor"></a>
+                  <div class="card-body text-center">
                     <h5 class="card-title">Code Refactor</h5>
                     <p class="card-text text-left">Updated website to optimize Assesibility and Search Engine Optimization. Refactored code for useability and future update</p>
-                    
+                    <a href="https://travisguillory.github.io/MarketingWebpageRefactor/" class="btn btn-primary">View Application</a>
                   </div>
                 </div>
-                <div class="card">
-                  <a href="https://travisguillory.github.io/Portfolio/"><img src="assets/img/portfolioscreen.png" class="card-img-top img-fluid" alt="Portfolio"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Portfolio</h5>
-                    <p class="card-text">Created a portfolio site to house projects and provide contact info.</p>
-                    
-                  </div>
-                </div>
-                <div class="card">
+               
+                <div class="card project col-lg m-1 p-1">
                   <a href="https://travisguillory.github.io/PasswordGenerator/"><img src="assets/img/passwordscreen.png" class="card-img-top img-fluid" alt="Code Refactor"></a>
-                  <div class="card-body">
+                  <div class="card-body text-center">
                     <h5 class="card-title">Password Generator</h5>
-                    <p class="card-text">Application to generate random passwords with selectable character types.</p>
+                    <p class="card-text">This is a web Application to generate random passwords. The user is allowed to choose the length and the types of characters.</p>
+                    <a href="https://travisguillory.github.io/PasswordGenerator/" class="btn btn-primary">View Application</a>
                   </div>
                 </div>
-              </div>
-            </div>      
-            <div class="row my-3"> 
-              <div class="card-deck col-sm-12 col-md-9 mx-auto ">
-                  <div class="card ">
+              
+              
+                  <div class="card project col-lg m-1 p-1">
                     <a href="https://travisguillory.github.io/Trivia2/"><img src="assets/img/triviascreen.png" class="card-img-top img-fluid" alt="Code Refactor"></a>
-                    <div class="card-body ">
+                    <div class="card-body text-center">
                       <h5 class="card-title">Javascript Trivia</h5>
-                      <p class="card-text ">Trivia game using JavaScript and about JaveScript.</p>
-                      
+                      <p class="card-text ">Trivia game using JavaScript and about JaveScript. Uses ES6 classes.</p>
+                      <a href="https://travisguillory.github.io/Trivia2/" class="btn btn-primary">View Application</a>
                     </div>
                   </div>
-                  <div class="card">
+                
+              </div>
+                <div class="row">
+                  <div class="card project col-lg m-1 p-1">
                     <a href="https://travisguillory.github.io/WorkDayScheduler/"><img src="assets/img/workdayscreen.png" class="card-img-top img-fluid" alt="Code Refactor"></a>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h5 class="card-title">Work Day Scheduler</h5>
-                      <p class="card-text">A simple work day planner created using jQuery.</p>
-                      
+                      <p class="card-text">A simple work day planner created using jQuery. Saves tasks for each hour of a business day.</p>
+                      <a href="https://travisguillory.github.io/WorkDayScheduler/" class="btn btn-primary">View Application</a>
                     </div>
                   </div>
-                  <div class="card">
+                  <div class="card project col-lg m-1 p-1">
                     <a href="https://travisguillory.github.io/WeatherDashboard/"><img src="assets/img/weatherscreen.png" class="card-img-top img-fluid" alt="Code Refactor"></a>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                       <h5 class="card-title">Weather Dashboard</h5>
                       <p class="card-text">Application to provide current and five day extended weather forecast info using OpenWeather API.</p>
-                      
+                      <a href="https://travisguillory.github.io/WeatherDashboard/" class="btn btn-primary">View Application</a>
+                    </div>
+                  </div>
+                  <div class="card project col-lg m-1 p-1">
+                    <a href="https://agomez99.github.io/ISS-Satellite-Tracker/"><img src="assets/img/projectscreen.png" class="card-img-top img-fluid" alt="Code Refactor"></a>
+                    <div class="card-body text-center">
+                      <h5 class="card-title">StationTrak</h5>
+                      <p class="card-text">Application that tracks the location of the International Space Station. Utilizes D3.js to create a world map and convert the station latitude and longitude to x,y coordinates. </p>
+                      <a href="https://agomez99.github.io/ISS-Satellite-Tracker/" class="btn btn-primary">View Application</a>
                     </div>
                   </div>
                 </div>
-              </div>
+              
+                
+              
+            </div>
+          
+              
       </div> 
     </main>
     
     <!--Footer area-->
-<footer class="page-footer bg-secondary fixed-bottom">
-  <div class="container mb-0" id="footerContainer">
-      
-          <div class="col">
-              <p class="mb-0 text-center text-white">Travis Guillory</p>
-          </div>
-          <div class="col">   
-              <p class="mb-0 text-center text-white">(210) 831-5130 tguillory@gmail.com</p>
-          </div>
-      
-  </div>
-</footer>
+    <footer class="page-footer  fixed-bottom">
+      <div class="container p-1 mb-0" id="footerContainer">
+          
+              <div class="col">
+                  <p class="mb-0 text-center text-white">Travis Guillory</p>
+              </div>
+              <div class="col">   
+                  <p class="mb-0 text-center text-white">(210) 831-5130  tguillory@gmail.com</p>
+                  <p class="mb-0 text-center text-white">GitHub: <a href="https://github.com/TravisGuillory">https://github.com/TravisGuillory</a></p>
+                  <p class="mb-0 text-center text-white"><a href="assets/img/">Resume</a></p>
+              </div>
+          
+      </div>
+  </footer>
     
     
     

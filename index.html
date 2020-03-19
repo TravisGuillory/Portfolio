@@ -8,11 +8,12 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-md navbar-dark ">
         <a href="index.html" class="navbar-brand">
-            <img class="img-responsive" src="assets/img/logo-temp.jpg" alt="Travis Guillory" title="Travis Guillory">
+            <img class="img-fluid" src="assets/img/meThumbnail.jpg" alt="Travis Guillory" title="Travis Guillory">
         </a>
         <a href="index.html" class="navbar-brand">Travis Guillory</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -29,20 +30,23 @@
                     <li class="nav-item">
                         <a href="contact.html" class="nav-link mr-5">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="assets/Resume of Travis Guillory.pdf" class="nav-link mr-5">Resume</a>
+                    </li>
                 </ul>
             </div>
         </nav>
     <!-- main section of the page -->
     <main >
         <div class="container" id="mainContainer">
-            <div class="row my-2">
-                <div class="col-12 col-md-6" id="aboutCardContainer">       
-                    <div class="card rounded" >
+             <div class="row mt-3">
+                <div class=" col-lg  card p-2 m-2" id="aboutCardContainer">       
+                    <div class="card rounded border-0" >
                         <div class="card-body">
                             <h3 class="card-title text-center">Travis Guillory</h3>
                             <h4 class="text-center">Full Stack Web Developer</h4>
-                            <img class="card-img-top img-fluid d-block mx-auto" style="max-width: 100%;" src="assets/img/placeholder.jpg" alt="Card image cap">
-                            <p>Hello, my name is Travis Guillory. I am a full-stack web developer. I look forward to providing a wide window to your products and 
+                            <img class="card-img img-fluid d-block mx-auto float-left" id="personalPhoto" src="assets/img/me.jpeg" alt="Card image cap">
+                            <p class="d-inline">Hello, my name is Travis Guillory. I am a full-stack web developer. I look forward to providing a wide window to your products and 
                                 services.  With current current web technologies and services and proven business experience, we can build applications to deliver
                                 results to your bottom line. I hope to create relationships that provide solutions. Thank you for visiting my page.
                            
@@ -55,70 +59,71 @@
                 </div>   
               
                 <!--grid within 1st row of main to contain skills-->
-                <div class="col col-6 col-md-5 d-table card" id="skillsCardContainer">
-                    <div class="row">
-                        <div class="card-body rounded" style="height: 100%;">
-                            <h4 class="card-title text-center">Skills and Experience</h4>
-                        </div>
-                    <div class="row">
-                        <div class="col">
-                            <img class="img-fluid"  src="assets/img/htmlImg.png" title="HTML 5" alt="HTML">
+                <div class="col-lg card p-2 m-2" id="skillsCardContainer">
+                   
+                        <div class="card-body rounded p-2 " >
+                            <h1 class="card-title text-center">Skills and Experience</h4>
+                        
+                    <div class="row text-center">
+                        <div class="col ">
+                            <img class="img-fluid skill"  src="assets/img/html5.png" title="HTML 5" alt="HTML">
                             <h5 class="my-auto text-center">HTML</h5>
                         </div>
-                        <div class="col">
-                            <img class="img-fluid"  src="assets/img/javascriptImg.png" title="Javascript" alt="Javascript">
+                        <div class="col ">
+                            <img class="img-fluid skill "  src="assets/img/javascriptImg.png" title="Javascript" alt="Javascript">
                             <h5 class="my-auto text-center">Javascript</h5>
                         </div>
                         <div class="col">
-                            <img class="img-fluid"  src="assets/img/cssImg.jpg" title="CSS" alt="CSS">
+                            <img class="img-fluid skill"  src="assets/img/cssImg.png" title="CSS" alt="CSS">
                             <h5 class="my-auto text-center">CSS</h5>
                         </div>
                     </div>    
-                    <div class="row">
+                    <div class="row text-center">
                         <div class="col">
-                            <img class="img-fluid"  src="assets/img/csharpImg.png" title="C#"alt="C#">
+                            <img class="img-fluid skill"  src="assets/img/csharpImg.png" title="C#"alt="C#">
                             <h5 class="my-auto text-center">C#</h5>
                         </div>
                         <div class="col">
-                            <img class="img-fluid"  src="assets/img/nodejsImg.png" title="NodeJS" alt="NodeJS">
+                            <img class="img-fluid skill"  src="assets/img/nodejsImg.png" title="NodeJS" alt="NodeJS">
                             <h5 class="my-auto text-center">Node JS</p>
                         </div>
                         <div class="col">
-                            <img class="img-fluid"  src="assets/img/mongodbImg.jpg" title="MongoDB" alt="MongoDB">
+                            <img class="img-fluid skill"  src="assets/img/mongodbPNG.png" title="MongoDB" alt="MongoDB">
                             <h5 class="my-auto text-center">MongoDB</h5>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row text-center">
                         <div class="col">
-                            <img class="img-fluid"  src="assets/img/vbaImg.jpg" title="Microsoft VBA" alt="MS VBA">
+                            <img class="img-fluid skill"  src="assets/img/vbaImg.jpg" title="Microsoft VBA" alt="MS VBA">
                             <h5 class="my-auto text-center">Microsoft VBA</h5>
                         </div>
                         <div class="col">
-                            <img class="img-fluid"  src="assets/img/cstrikeImg.png" title="TBD" alt="TBD">
-                            <h5 class="my-auto text-center">TBD</h5>
+                            <img class="img-fluid skill"  src="assets/img/jquery-icon.png" title="jQuery" alt="jQuery logo">
+                            <h5 class="my-auto text-center">jQuery</h5>
                         </div>
                         <div class="col">
-                          <img class="img-fluid"  src="assets/img/rocketleagueImg.jpg" title="TND" alt="TBD">  
-                            <h5 class="mb-0 text-center">TBD</h5>
+                          <img class="img-fluid skill"  src="assets/img/d3-js-logo.png" title="d3" alt="d3.js logop">  
+                            <h5 class="mb-0 text-center">D3.js</h5>
                         </div>
                     </div>  
                     
                    
                 </div>
-            </div>        
-            
+            </div>
         </div>
     </div>
 </main>
 <!--Footer area-->
-<footer class="page-footer bg-secondary fixed-bottom">
-    <div class="container mb-0" id="footerContainer">
+<footer class="page-footer  fixed-bottom">
+    <div class="container p-1 mb-0" id="footerContainer">
         
             <div class="col">
                 <p class="mb-0 text-center text-white">Travis Guillory</p>
             </div>
             <div class="col">   
-                <p class="mb-0 text-center text-white">(210) 831-5130 tguillory@gmail.com</p>
+                <p class="mb-0 text-center text-white">(210) 831-5130  tguillory@gmail.com</p>
+                <p class="mb-0 text-center text-white">GitHub: <a href="https://github.com/TravisGuillory">https://github.com/TravisGuillory</a></p>
+                <p class="mb-0 text-center text-white"><a href="assets/img/">Resume</a></p>
             </div>
         
     </div>

@@ -4,10 +4,31 @@ body{
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
     background-size: cover;
+    overflow: auto;
     
      
 } 
 
 .card{
     background-color: #d5e4c3;
+    
+}
+
+.project{
+    padding: 10px;
+}
+
+#personalPhoto{
+    max-width: 150px;
+    height: auto;
+}
+
+.skill{
+    width: auto;
+    max-height: 100px;
+}
+
+.navbar, .page-footer{
+    background-color: #040C37;
+    
 }
